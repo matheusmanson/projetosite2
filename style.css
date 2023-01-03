@@ -63,7 +63,7 @@
         background-color: var(--color1);
         max-width: 200px;
         min-height: 300px;
-        margin: 5px 30px;
+        margin: 5px 150px;
         border: 2px solid black;
         border-radius: 15px;
         padding-top: 1px;
@@ -96,7 +96,7 @@
         background-color: var(--color1);
         max-width: 200px;
         min-height: 300px;
-        margin: 5px 30px;
+        margin: 5px 150px;
         border: 2px solid black;
         border-radius: 15px;
         padding-top: 1px;
