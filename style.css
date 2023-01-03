@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+
+    @font-face {
+        font-family: principal;
+        src: url(fontes/bebasneueregular.ttf);
+    }
+
+    :root{
+
+        --color1:#00547A;
+        --color2:#19B6FF;
+        --color3:#0088C7;
+        --color4:#7A4300;
+        --color5:#C76C00;
+
+        --fontes-padrao: Arial,Verdana, Helvetica,sans-serif;
+        --fontes-destaque: 'principal' , cursive
+
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+    header {
+        background-color: var(--color2);
+        border: 2px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .h1 {
+        text-align: center;
+    }
+
+    nav {
+
+    }
+
+    body {
+
+        background-color: var(--color2);
+        margin: auto;
+        max-width: 1000px;
+        min-height: 400px;
+        
+    }
+    
+    
+    main {
+        background: black url('imagens/backgmain.jpg') center center no-repeat fixed;
+        background-color: var(--color2);
+        max-width: 1000px;
+        min-height: 400px;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    .personagem1{
+        background-color: var(--color1);
+        max-width: 200px;
+        min-height: 300px;
+        margin: 5px 30px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding-top: 1px;
+        display: inline-block;
+        
+    }
+
+    div > h2 {
+        font-family: principal;
+        text-align: center;
+        color: var(--color5);
+    }
+
+    div > img {
+        max-width: 80px;
+        min-height: 50px;
+        margin: 0px 50px;
+    }
+
+    div > p {
+        text-align: center;
+        color: var(--color5);
+        text-indent: 5px;
+        
+
+    }
+
+    .personagem2{
+        display: inline-block;
+        background-color: var(--color1);
+        max-width: 200px;
+        min-height: 300px;
+        margin: 5px 30px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding-top: 1px;
+        
+    }
+
+    .center {
+        font-family: principal;
+        text-align: center;
+        color: var(--color5);
+    }
+
+    .imgcenter{
+        max-width: 80px;
+        min-height: 50px;
+        margin: 0px 50px;
+    }
+
+    div > p {
+        text-align: center;
+        color: var(--color5);
+        text-indent: 5px;
+    }
