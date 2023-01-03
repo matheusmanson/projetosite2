@@ -92,14 +92,14 @@
     }
 
     .personagem2{
-        display: inline-block;
         background-color: var(--color1);
         max-width: 200px;
         min-height: 300px;
-        margin: 5px 150px;
+        margin: 5px 0px;
         border: 2px solid black;
         border-radius: 15px;
         padding-top: 1px;
+        display: inline-block;
         
     }
 
