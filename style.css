@@ -26,14 +26,16 @@
 
 
     header {
-        background-color: var(--color2);
-        border: 2px;
-        padding: 5px;
-        margin: 5px;
+        background-image: linear-gradient(to right, #00547A, #19B6FF, #0088C7 );
+        min-height: 100px;
+        text-align: center;
+        padding-top: 30px
     }
 
     .h1 {
         text-align: center;
+        font-family: var(--fontes-destaque);
+        font-size: 50px;
     }
 
     nav {
@@ -45,30 +47,80 @@
         background-color: var(--color2);
         margin: auto;
         max-width: 1000px;
-        min-height: 400px;
+        min-height: 500px;
+
+       
         
     }
     
     
     main {
         background: black url('imagens/backgmain.jpg') center center no-repeat fixed;
+        background-size: cover;
         background-color: var(--color2);
         max-width: 1000px;
-        min-height: 400px;
+        min-height: 500px;
         margin: auto;
         padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .personagem1{
         background-color: var(--color1);
         max-width: 200px;
         min-height: 300px;
-        margin: 5px 150px;
         border: 2px solid black;
         border-radius: 15px;
         padding-top: 1px;
         display: inline-block;
         
+        
+        
+    }
+
+    .personagem1:hover{
+        background-color: var(--color2);
+        align-self: flex-start;
+    }
+
+    .personagem2{
+        display: inline-block;
+        background-color: var(--color1);
+        max-width: 200px;
+        min-height: 300px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding-top: 1px;
+
+    }
+
+    .personagem3{
+        display: inline-block;
+        background-color: var(--color1);
+        max-width: 200px;
+        min-height: 300px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding-top: 1px;
+        box-shadow: black 0px 0px 0px;
+
+    }
+
+    .personagem4{
+        display: inline-block;
+        background-color: var(--color1);
+        max-width: 200px;
+        min-height: 300px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding-top: 1px;
+
+
+    }
+
+    .divp{
+        margin-left: 70px;
+        margin-right: 70px;
     }
 
     div > h2 {
@@ -91,17 +143,6 @@
 
     }
 
-    .personagem2{
-        background-color: var(--color1);
-        max-width: 200px;
-        min-height: 300px;
-        margin: 5px 0px;
-        border: 2px solid black;
-        border-radius: 15px;
-        padding-top: 1px;
-        display: inline-block;
-        
-    }
 
     .center {
         font-family: principal;
