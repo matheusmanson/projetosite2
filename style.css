@@ -20,39 +20,46 @@
     }
 
     * {
-        margin: 0px;
+        margin: 2px;
         padding: 0px;
     }
 
 
-    header {
-        background-image: linear-gradient(to right, #00547A, #19B6FF, #0088C7 );
-        min-height: 100px;
-        text-align: center;
-        padding-top: 30px;
-        border: 5px;
-        margin: auto;
-    }
-
     .h1 {
         text-align: center;
+        color: var(--color5);
         font-family: var(--fontes-destaque);
-        font-size: 50px;
+        font-size: 3em;
+    }
+
+    .h2 {
+        background-image: linear-gradient(to right, #00547A, #19B6FF, #0088C7 );
+        text-align: center;
+        font-family: var(--fontes-destaque);
+        color: var(--color5);
+        font-size: 3em;
+        margin: 10px;
+        border: black solid 1px;
     }
 
     nav {
 
     }
 
-    body {
+    header {
+        background-image: linear-gradient(to right, #19B6FF, #C76C00);
+        text-align: center;
+        margin: auto;
+    }
 
+
+    body {
+        height: 98vh;
         background-color: var(--color2);
         margin: auto;
-        max-width: 1000px;
-        min-height: 500px;
-
-       
-        
+        max-width: 850;
+        min-height: 1000;
+    
     }
     
     
@@ -60,9 +67,9 @@
         background: black url('imagens/backgmain.jpg') center center no-repeat fixed;
         background-size: cover;
         background-color: var(--color2);
-        max-width: 1000px;
-        min-height: 500px;
         margin: auto;
+        max-width: 1000px;
+        min-height: 1000px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -73,7 +80,7 @@
         min-height: 300px;
         border: 2px solid black;
         border-radius: 15px;
-        padding-top: 1px;
+        padding: 10px;
         display: inline-block;
         
         
@@ -86,43 +93,105 @@
     }
 
     .personagem2{
-        display: inline-block;
+    
         background-color: var(--color1);
         max-width: 200px;
         min-height: 300px;
         border: 2px solid black;
         border-radius: 15px;
-        padding-top: 1px;
+        padding: 11px;
+        display: inline-block;
+
+    }
+    .personagem2:hover{
+        background-color: var(--color2);
+        align-self: flex-start;
+    }
+    .personagem3{
+        background-color: var(--color1);
+        max-width: 200px;
+        min-height: 300px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 11px;
+        box-shadow: black 0px 0px 0px;
+        display: inline-block;
 
     }
 
-    .personagem3{
-        display: inline-block;
-        background-color: var(--color1);
-        max-width: 200px;
-        min-height: 300px;
-        border: 2px solid black;
-        border-radius: 15px;
-        padding-top: 1px;
-        box-shadow: black 0px 0px 0px;
-
+    .personagem3:hover{
+        background-color: var(--color2);
+        align-self: flex-start;
     }
 
     .personagem4{
+        background-color: var(--color1);
+        max-width: 200px;
+        min-height: 300px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 11px;
+        
+        display: inline-block;
+    
+    }
+
+    .personagem4:hover{
+        background-color: var(--color2);
+        align-self: flex-start;
+    }
+
+    .personagem5{
+        background-color: var(--color1);
+        max-width: 200px;
+        min-height: 300px;
+        border: 2px solid black;
+        border-radius: 15px;
+        padding: 11px;
+        
+        display: inline-block;
+    
+    }
+
+    .personagem5:hover{
+        background-color: var(--color2);
+        align-self: flex-start;
+    }
+
+    .personagem6{
         display: inline-block;
         background-color: var(--color1);
         max-width: 200px;
         min-height: 300px;
         border: 2px solid black;
         border-radius: 15px;
-        padding-top: 1px;
-
-
+        padding: 11px;
+        
+    
     }
 
+    .personagem6:hover{
+        background-color: var(--color2);
+        align-self: flex-start;
+    }
+
+
+
     .divp{
-        margin-left: 70px;
-        margin-right: 70px;
+       background-color: #fbfeff00;
+       padding: 1px;
+       
+       max-width: 930px;
+       min-height: 250px;
+       margin: auto;
+    }
+
+    .divp1{
+        
+        max-width: 470px;
+        padding: 1px;
+       
+        margin: auto;
     }
 
     div > h2 {
