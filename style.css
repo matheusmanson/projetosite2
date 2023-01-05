@@ -80,11 +80,11 @@
 
     .personagem1{
         background-color: var(--color1);
-        max-width: 200px;
+        max-width: 150px;
         min-height: 300px;
         border: 2px solid black;
         border-radius: 15px;
-        padding: 10px;
+        padding: 5px;
         display: inline-block;
         
         
@@ -100,11 +100,11 @@
     .personagem2{
     
         background-color: var(--color1);
-        max-width: 200px;
+        max-width: 150px;
         min-height: 300px;
         border: 2px solid black;
         border-radius: 15px;
-        padding: 11px;
+        padding: 5px;
         display: inline-block;
 
     }
@@ -114,11 +114,11 @@
     }
     .personagem3{
         background-color: var(--color1);
-        max-width: 200px;
+        max-width: 150px;
         min-height: 300px;
         border: 2px solid black;
         border-radius: 15px;
-        padding: 11px;
+        padding: 5px;
         box-shadow: black 0px 0px 0px;
         display: inline-block;
 
@@ -131,11 +131,11 @@
 
     .personagem4{
         background-color: var(--color1);
-        max-width: 200px;
+        max-width: 150px;
         min-height: 300px;
         border: 2px solid black;
         border-radius: 15px;
-        padding: 11px;
+        padding: 5px;
         
         display: inline-block;
     
@@ -148,11 +148,11 @@
 
     .personagem5{
         background-color: var(--color1);
-        max-width: 200px;
+        max-width: 150px;
         min-height: 300px;
         border: 2px solid black;
         border-radius: 15px;
-        padding: 11px;
+        padding: 5px;
         
         display: inline-block;
     
@@ -166,11 +166,11 @@
     .personagem6{
         display: inline-block;
         background-color: var(--color1);
-        max-width: 200px;
+        max-width: 150px;
         min-height: 300px;
         border: 2px solid black;
         border-radius: 15px;
-        padding: 11px;
+        padding: 5px;
         
     
     }
@@ -184,17 +184,17 @@
 
     .divp{
        background-color: #fbfeff00;
-       padding: 1px;
+       padding: 0px;
        
-       max-width: 930px;
+       max-width: 730px;
        min-height: 250px;
        margin: auto;
     }
 
     .divp1{
         
-        max-width: 470px;
-        padding: 1px;
+        max-width: 450px;
+        padding: 0px;
        
         margin: auto;
     }
@@ -228,9 +228,9 @@
     }
 
     .imgcenter{
-        max-width: 80px;
-        min-height: 50px;
-        margin: 0px 50px;
+        max-width: 90px;
+        min-height: 90px;
+        margin: auto;
     }
 
     div > p {
