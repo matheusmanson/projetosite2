@@ -30,16 +30,19 @@
         color: var(--color1);
         font-family: var(--fontes-destaque);
         font-size: 3em;
+        margin: auto;
+        padding: 2px;
         text-shadow: rgba(255, 255, 255, 0.466) 2px 1px;
     }
 
     .h2 {
         background-image: linear-gradient(to right, #00547A, #19B6FF, #0088C7 );
         text-align: center;
+        max-width: 800px;
         font-family: var(--fontes-destaque);
         color: var(--color5);
         font-size: 3em;
-        margin: 10px;
+        margin: auto;
         border: black solid 1px;
         text-shadow: rgba(0, 0, 0, 0.466) 2px 1px;
     }
